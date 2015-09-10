@@ -1,0 +1,25 @@
+//
+//  ZFTabBar-Prefix.pch
+//  ZFTabBar
+//
+//  Created by 任子丰 on 15/9/10.
+//  Copyright (c) 2015年 任子丰. All rights reserved.
+//
+
+#ifndef ZFTabBar_ZFTabBar_Prefix_pch
+#define ZFTabBar_ZFTabBar_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// 1.判断是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+
+// 2.获得RGB颜色
+#define IWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif
+
+#endif
