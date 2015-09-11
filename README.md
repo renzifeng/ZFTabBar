@@ -1,6 +1,9 @@
 # ZFTabBar
 **自定义TabBar，可以选中和非选中图片，还可以加badgeValue**
 
+### 效果演示：
+![image](https://github.com/renzifeng/ZFTabBar.git/ScreenShot.png)
+
 #用法示例
 
 ## 初始化TabBar
