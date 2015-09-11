@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"圈子";
+    self.navigationItem.title = self.tabBarItem.title;
     // Do any additional setup after loading the view from its nib.
 }
 

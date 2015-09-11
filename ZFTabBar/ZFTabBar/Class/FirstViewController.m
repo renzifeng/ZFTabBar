@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"首页";
+    self.navigationItem.title = self.tabBarItem.title;
     self.tableView.tableFooterView = [UIView new];
     self.refreshControl = [[UIRefreshControl alloc] init];
     [self.refreshControl beginRefreshing];

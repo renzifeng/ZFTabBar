@@ -1,9 +1,9 @@
 //
-//  IWTabBarViewController.m
-//  ItcastWeibo
+//  ZFTabBarViewController.m
+//  ZFTabBar
 //
-//  Created by apple on 14-5-5.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by 任子丰 on 15/9/10.
+//  Copyright (c) 2014年 任子丰. All rights reserved.
 //
 
 #import "ZFTabBarViewController.h"
@@ -84,12 +84,12 @@
     message.tabBarItem.badgeValue = @"8";
     [self setupChildViewController:message title:@"消息" imageName:@"quanzi" selectedImageName:@"quanzi_s"];
     
-    // 1.首页
+    // 3.首页
     FirstViewController *home1 = [[FirstViewController alloc] init];
     home1.tabBarItem.badgeValue = @"19";
     [self setupChildViewController:home1 title:@"发现" imageName:@"shouye" selectedImageName:@"shouye_s"];
     
-    // 2.消息
+    // 4.消息
     SecondViewController *message1 = [[SecondViewController alloc] init];
     message1.tabBarItem.badgeValue = @"99";
     [self setupChildViewController:message1 title:@"广场" imageName:@"quanzi" selectedImageName:@"quanzi_s"];

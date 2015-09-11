@@ -1,13 +1,13 @@
 //
-//  IWTabBarButton.m
-//  ItcastWeibo
+//  ZFTabBarButton.m
+//  ZFTabBar
 //
-//  Created by apple on 14-5-5.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by 任子丰 on 15/9/10.
+//  Copyright (c) 2014年 任子丰. All rights reserved.
 //
 
 // 图标的比例
-#define IWTabBarButtonImageRatio 0.6
+#define ZFTabBarButtonImageRatio 0.6
 
 // 按钮的默认文字颜色
 #define  ZFTabBarButtonTitleColor (iOS7 ? [UIColor blackColor] : [UIColor whiteColor])
@@ -60,17 +60,17 @@
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
 {
     CGFloat imageW = contentRect.size.width;
-    CGFloat imageH = contentRect.size.height * IWTabBarButtonImageRatio;
-    return CGRectMake(0, 0, imageW, imageH);
+    CGFloat imageH = contentRect.size.height * ZFTabBarButtonImageRatio;
+    return CGRectMake(0, 3, imageW, imageH-3);
 }
 
 // 内部文字的frame
 - (CGRect)titleRectForContentRect:(CGRect)contentRect
 {
-    CGFloat titleY = contentRect.size.height * IWTabBarButtonImageRatio;
+    CGFloat titleY = contentRect.size.height * ZFTabBarButtonImageRatio;
     CGFloat titleW = contentRect.size.width;
     CGFloat titleH = contentRect.size.height - titleY;
-    return CGRectMake(0, titleY, titleW, titleH);
+    return CGRectMake(0, titleY+2, titleW, titleH);
 }
 
 // 设置item

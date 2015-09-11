@@ -1,9 +1,9 @@
 //
-//  IWBadgeButton.m
-//  ItcastWeibo
+//  ZFBadgeButton.m
+//  ZFTabBar
 //
-//  Created by apple on 14-5-5.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by 任子丰 on 15/9/10.
+//  Copyright (c) 2014年 任子丰. All rights reserved.
 //
 
 #import "ZFBadgeButton.h"
